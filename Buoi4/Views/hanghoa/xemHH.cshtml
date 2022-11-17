@@ -1,0 +1,64 @@
+﻿@model Buoi4.Models.Hanghoa
+@{
+    ViewBag.Title = "Quản lý hàng hóa";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+<h2>Quản lý hàng hóa</h2>
+<p>
+    @Html.ActionLink("Thêm hàng hóa", "Create")
+</p>
+<div class="row">
+    <div class="col-6">
+        <div>
+            @Html.DisplayNameFor(model => model.Mahang)
+        </div>
+        <div>
+            @Html.DisplayNameFor(model => model.Tenhang)
+        </div>
+        <div>
+            @Html.DisplayNameFor(model => model.Donvitinh)
+        </div>
+        <div>
+            @Html.DisplayNameFor(model => model.Dongia)
+        </div>
+        <div>
+            @Html.DisplayNameFor(model => model.loaihanghoa.Maloai)
+        </div>
+        <div>
+            @Html.DisplayNameFor(model => model.loaihanghoa.Tenloai)
+        </div>
+        <div>
+            @Html.DisplayNameFor(model => model.nhasanxuat.Mansx)
+        </div>
+        <div>
+            @Html.DisplayNameFor(model => model.nhasanxuat.Tennsx)
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div>
+            @Html.DisplayFor(modelItem => Model.Mahang)
+        </div>
+        <div>
+            @Html.DisplayFor(modelItem => Model.Tenhang)
+        </div>
+        <div>
+            @Html.DisplayFor(modelItem => Model.Donvitinh)
+        </div>
+        <div>
+            @Html.DisplayFor(modelItem => Model.Dongia)
+        </div>
+        <div>
+            @Html.DisplayFor(modelItem => Model.loaihanghoa.Maloai)
+        </div>
+        <div>
+            @Html.DisplayFor(modelItem => Model.loaihanghoa.Tenloai)
+        </div>
+        <div>
+            @Html.DisplayFor(modelItem => Model.nhasanxuat.Mansx)
+        </div>
+        <div>
+            @Html.DisplayFor(modelItem => Model.nhasanxuat.Tennsx)
+        </div>
+    </div>
+</div>

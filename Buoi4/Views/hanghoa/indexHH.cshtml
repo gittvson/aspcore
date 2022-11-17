@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Buoi4.Models.Hanghoa>
+@{
+    ViewBag.Title = "Quản lý hàng hóa";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+<h2>Quản lý hàng hóa</h2>
+<p>
+    @Html.ActionLink("Thêm hàng hóa", "Create")
+</p>
+<table class="table">
+    <tr>ul
+        <th>
+            @Html.DisplayNameFor(model => model.Mahang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tenhang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Donvitinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dongia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.loaihanghoa.Tenloai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nhasanxuat.Tennsx)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mahang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenhang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Donvitinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dongia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.loaihanghoa.Tenloai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nhasanxuat.Tennsx)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "suaHH", new { id = item.Mahang }) |
+                @Html.ActionLink("Chi tiết", "xemHH", new { id = item.Mahang }) |
+                @Html.ActionLink("Xóa", "xoaHH", new { id = item.Mahang })
+            </td>
+        </tr>
+    }
+</table>

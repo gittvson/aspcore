@@ -1,0 +1,153 @@
+E:\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.deps.json
+E:\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.runtimeconfig.json
+E:\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.runtimeconfig.dev.json
+E:\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.dll
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csprojAssemblyReference.cache
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CoreCompileInputs.cache
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorAssemblyInfo.cache
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorAssemblyInfo.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.AssemblyInfoInputs.cache
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.AssemblyInfo.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.TagHelpers.input.cache
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.TagHelpers.output.cache
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorCoreGenerate.cache
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorTargetAssemblyInfo.cache
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorTargetAssemblyInfo.cs
+E:\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.pdb
+E:\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.Views.dll
+E:\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.Views.pdb
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.Views.pdb
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.dll
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.pdb
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CopyComplete
+E:\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\themNSX.g.cshtml.cs
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\appsettings.json
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.deps.json
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.runtimeconfig.json
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.runtimeconfig.dev.json
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.dll
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.pdb
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.Views.dll
+E:\.NET CORE\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.Views.pdb
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csprojAssemblyReference.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.AssemblyInfoInputs.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.AssemblyInfo.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CoreCompileInputs.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorAssemblyInfo.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorAssemblyInfo.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.TagHelpers.input.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.TagHelpers.output.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorCoreGenerate.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\themNSX.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorTargetAssemblyInfo.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorTargetAssemblyInfo.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.Views.pdb
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.dll
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.pdb
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.genruntimeconfig.cache
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CopyComplete
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\indexDangNhap.cshtml.g.cs
+E:\.NET CORE\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_LayoutPage1.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csprojAssemblyReference.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.AssemblyInfoInputs.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.AssemblyInfo.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CoreCompileInputs.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorAssemblyInfo.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorAssemblyInfo.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.dll
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.pdb
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.deps.json
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.runtimeconfig.json
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.runtimeconfig.dev.json
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.dll
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.pdb
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.Views.dll
+C:\Users\VIET\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.Views.pdb
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.TagHelpers.input.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.TagHelpers.output.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorCoreGenerate.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\indexDangNhap.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\themNSX.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_LayoutPage1.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorTargetAssemblyInfo.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorTargetAssemblyInfo.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.Views.pdb
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.genruntimeconfig.cache
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CopyComplete
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\hanghoa\indexHH.cshtml.g.cs
+C:\Users\VIET\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\hanghoa\xemHH.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.deps.json
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.runtimeconfig.json
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.runtimeconfig.dev.json
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.dll
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.pdb
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.Views.dll
+C:\Users\Son\Desktop\Buoi4\Buoi4\bin\Debug\netcoreapp2.1\Buoi4.Views.pdb
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.AssemblyReference.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.AssemblyInfoInputs.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.AssemblyInfo.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CoreCompileInputs.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorAssemblyInfo.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorAssemblyInfo.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.TagHelpers.input.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.TagHelpers.output.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorCoreGenerate.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\hanghoa\indexHH.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\hanghoa\xemHH.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\indexDangNhap.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\themNSX.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_LayoutPage1.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorTargetAssemblyInfo.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.RazorTargetAssemblyInfo.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.Views.pdb
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.dll
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.pdb
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.genruntimeconfig.cache
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CopyComplete
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\hanghoa\Create.cshtml.g.cs
