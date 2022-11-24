@@ -6,32 +6,124 @@
 <h2>Thêm hàng hóa</h2>
 
 <form>
-    <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
-        <select class="form-control" id="exampleFormControlSelect1">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlSelect2">Example multiple select</label>
-        <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlFile1" Hình ảnh</label>
+            <input type="file" class="form-control-file" id="Hinh">
+        </div>
+        <h1>Thông tin hàng hóa</h1>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Mã hàng</label>
+            <input type="text" class="form-control" id="Mahang">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Tên hàng</label>
+            <input type="text" class="form-control" id="Tenhang">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Đơn vị tính</label>
+            <input type="text" class="form-control" id="Donvitinh">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Đơn giá</label>
+            <input type="text" class="form-control" id="Dongia">
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Loại hàng hóa</label>
+                    <select class="form-control" id="Maloai">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Nhà sản xuất</label>
+                    <select class="form-control" id="Mansx">
+                    </select>
+                </div>
+            </div>
+            @* <div class="col-6">
+            <div class="form-group">
+            <label for="exampleFormControlInput1">Địa chỉ</label>
+            <input type="text" class="form-control" id="diaChi">
+            </div>
+            </div>*@
+        </div>
+    </form>
+    <button id="submit" type="submit" class="btn btn-primary mb-2">Tạo</button>
 </form>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "/nhasanxuat/getNSX",
+            data: "",
+            success: function (data) {
+                let s = '';
+                for (var i = 0; i < data.length; i++) {
+                    s += '<option value="' + data[i].mansx + '">' + data[i].tennsx + '</option>';
+                }
+                $("#Mansx").html(s);
+            }
+        });
+
+
+        $.ajax({
+            type: "GET",
+            url: "/LoaiHangHoa/getLoaiHangHoa",
+            data: "",
+            success: function (data) {
+                let s = '';
+                for (var i = 0; i < data.length; i++) {
+                    s += '<option value="' + data[i].maloai + '">' + data[i].tenloai + '</option>';
+                }
+                $("#Maloai").html(s);
+            }
+        });
+    });
+
+    $("#submit").click(function () {
+
+
+        var input = document.getElementById("Hinh"); //get file input id
+        var files = input.files; //get files
+        var formData = new FormData(); //create form
+
+        for (var i = 0; i != files.length; i++) {
+            formData.append("files", files[i]); //loop through all files and append
+        }
+
+        $.ajax(
+            {
+                url: "/Hanghoa/AjaxUpload",
+                data: formData, // send it as formData
+                processData: false,
+                contentType: false,
+                type: "POST", //type is post as we will need to post files
+                success: function (data) {
+                   console.log({data})
+                    $.ajax({
+                        url: '@Url.Action("CreateHH", "Hanghoa")',
+                        type: "post",
+                        contentType: 'application/x-www-form-urlencoded',
+                        data: {
+                            Mahang: $("#Mahang").val(),
+                            Tenhang: $("#Tenhang").val(),
+                            Dongia: $("#Dongia").val(),
+                            Donvitinh: $("#Donvitinh").val(),
+                            Maloai: $("#Maloai").val(),
+                            Mansx: $("#Mansx").val(),
+                            Hinh: data
+                        },
+                        success: function (result) {
+                            console.log(result);
+                            location.reload();
+                            alert("Thêm thành công")
+                        }
+                    });
+                }
+            }
+        );
+    });
+</script>

@@ -4,11 +4,17 @@
     Layout = "~/Views/_LayoutPage1.cshtml";
 }
 <h2>Quản lý hàng hóa</h2>
-<p>
-    @Html.ActionLink("Thêm hàng hóa", "Create")
-</p>
+<button class="btn btn-success">
+    @Html.ActionLink("Thêm hàng hóa", "Create", new { @class = "text-decoration-none .text-reset" })
+</button>
 <table class="table">
-    <tr>ul
+    <tr>
+        <th>
+            hinh
+        </th>
+        <th>
+            hinh
+        </th>
         <th>
             @Html.DisplayNameFor(model => model.Mahang)
         </th>
@@ -32,6 +38,12 @@
     @foreach (var item in Model)
     {
         <tr>
+            <td>
+                <img src="@Html.DisplayFor(modelItem => item.Hinh)" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hinh)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Mahang)
             </td>

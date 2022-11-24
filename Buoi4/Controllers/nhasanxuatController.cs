@@ -11,7 +11,6 @@ namespace Buoi4.Controllers
     public class nhasanxuatController : Controller
     {
         private QLBHContext db = new QLBHContext();
-        private readonly ISession session;
         public IActionResult Index()
         {
             return View(db.Nhanvien);
@@ -28,6 +27,13 @@ namespace Buoi4.Controllers
             db.Nhasanxuat.Add(nhasanxuat); db.SaveChanges();
             return RedirectToAction("indexNV");
         }
+
+        [HttpGet]
+        public Object getNSX()
+        {
+            return db.Nhasanxuat.ToList();
+        }
+
 
     }
 }
