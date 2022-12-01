@@ -151,3 +151,4 @@ C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.pdb
 C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.genruntimeconfig.cache
 C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Buoi4.csproj.CopyComplete
 C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\hanghoa\Create.cshtml.g.cs
+C:\Users\Son\Desktop\Buoi4\Buoi4\obj\Debug\netcoreapp2.1\Razor\Views\hanghoa\SuaHH.cshtml.g.cs

@@ -35,7 +35,22 @@ namespace Buoi4.Controllers
             db.Hanghoa.Add(hh); db.SaveChanges();
             return RedirectToAction("indexHH");
         }
-
+        public IActionResult UpdateHH([Bind(include: "Mahang,Tenhang,Dongia,Donvitinh,Maloai,Mansx,Hinh")] Hanghoa hh)
+        {
+            db.Hanghoa.Update(hh); db.SaveChanges();
+            return RedirectToAction("indexHH");
+        }
+        public IActionResult SuaHH(string id)
+        {
+            if (id == ")")
+            {
+                var hh = db.Hanghoa.Include(h => h.loaihanghoa).Include(h => h.nhasanxuat);
+                return View(hh.ToList()[0]);
+            }
+            var Hanghoa = db.Hanghoa.Include(h => h.loaihanghoa).Include(h => h.nhasanxuat).Where(h => h.Mahang == id);
+            return View(Hanghoa.ToList()[0]);
+        }
+        [HttpPost]
         public async Task<IActionResult> AjaxUpload(IList<IFormFile> files)
         {
             var path = "";
@@ -54,6 +69,16 @@ namespace Buoi4.Controllers
             }
             return Json("/images/" + files[0].FileName);
         }
+        [HttpPost]
+        public bool XoaHH(string id)
+        {
+            var deletedHH = db.Hanghoa.Include(h => h.loaihanghoa).Include(h => h.nhasanxuat).Where(h => h.Mahang == id);
 
+            db.Hanghoa.Remove(deletedHH.ToList()[0]);
+            db.SaveChanges();
+            
+            var Hanghoa = db.Hanghoa.Include(h => h.loaihanghoa).Include(h => h.nhasanxuat);
+            return true;
+        }
     }
 }

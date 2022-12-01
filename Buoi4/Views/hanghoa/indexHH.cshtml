@@ -9,13 +9,13 @@
 </button>
 <table class="table">
     <tr>
-        <th>
-            hinh
+        @* <th>
+        hinh
         </th>
         <th>
-            hinh
-        </th>
-        <th>
+        hinh
+        </th>*@
+        <th id="maHang">
             @Html.DisplayNameFor(model => model.Mahang)
         </th>
         <th>
@@ -38,12 +38,12 @@
     @foreach (var item in Model)
     {
         <tr>
-            <td>
-                <img src="@Html.DisplayFor(modelItem => item.Hinh)" />
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Hinh)
-            </td>
+            @* <td>
+        <img src="@Html.DisplayFor(modelItem => item.Hinh)" />
+        </td>
+        <td>
+        @Html.DisplayFor(modelItem => item.Hinh)
+        </td>*@
             <td>
                 @Html.DisplayFor(modelItem => item.Mahang)
             </td>
@@ -63,10 +63,27 @@
                 @Html.DisplayFor(modelItem => item.nhasanxuat.Tennsx)
             </td>
             <td>
-                @Html.ActionLink("Sửa", "suaHH", new { id = item.Mahang }) |
+                @Html.ActionLink("Chỉnh sửa", "SuaHH", new { id = item.Mahang }) |
                 @Html.ActionLink("Chi tiết", "xemHH", new { id = item.Mahang }) |
-                @Html.ActionLink("Xóa", "xoaHH", new { id = item.Mahang })
+
+                <button onClick="deleteHH(@item.Mahang)" type="button" class="btn btn-primary mb-2">Xóa</button>
             </td>
         </tr>
     }
 </table>
+
+<script type="text/javascript">
+
+    function deleteHH(id) {
+        $.ajax({
+            type: "post",
+            url: "/Hanghoa/XoaHH",
+            data: { id: "" + id },
+            success: function (data) {
+                alert("Xóa thành công")
+                location.reload();
+            }
+        });
+    };
+
+</script>
