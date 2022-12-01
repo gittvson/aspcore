@@ -7,7 +7,7 @@
 
 <form>
     <form>
-         <img src="@Model.Hinh)" width="200px" />
+         <img src="@Model.Hinh" width="200px" />
         <div class="form-group">
             <label for="exampleFormControlFile1"> Hình ảnh</label>
             <input type="file" class="form-control-file" id="Hinh"/>
@@ -95,39 +95,42 @@
             formData.append("files", files[i]); //loop through all files and append
         }
         let hinhurl = "";
-        if(files.length!== 0)
-        $.ajax(
-            {
-                url: "/Hanghoa/AjaxUpload",
-                data: formData, // send it as formData
-                processData: false,
-                contentType: false,
-                type: "POST", //type is post as we will need to post files
-                success: function (data) {
-                    hinhurl = data
-                   console.log({data})
+        if (files.length !== 0)
+            $.ajax(
+                {
+                    url: "/Hanghoa/AjaxUpload",
+                    data: formData, // send it as formData
+                    processData: false,
+                    contentType: false,
+                    type: "POST", //type is post as we will need to post files
+                    success: function (data) {
+                        hinhurl = data
+                        console.log({ data })
+                    },
+                    error: function (data) {
+                        console.log({ data })
+                    }
                 }
-            }
-        );
+            );
         $.ajax({
-                        url: '@Url.Action("UpdateHH", "Hanghoa")',
-                        type: "post",
-                        contentType: 'application/x-www-form-urlencoded',
-                        data: {
-                            Mahang: $("#Mahang").val(),
-                            Tenhang: $("#Tenhang").val(),
-                            Dongia: $("#Dongia").val(),
-                            Donvitinh: $("#Donvitinh").val(),
-                            Maloai: $("#Maloai").val(),
-                            Mansx: $("#Mansx").val(),
-                            Hinh: hinhurl
-                        },
-                        success: function (result) {
-                            console.log(result);
-                            location.reload();
-                            alert("Sửa thành công")
-                        }
-                    });
-        
+            url: '@Url.Action("UpdateHH", "Hanghoa")',
+            type: "post",
+            contentType: 'application/x-www-form-urlencoded',
+            data: {
+                Mahang: $("#Mahang").val(),
+                Tenhang: $("#Tenhang").val(),
+                Dongia: $("#Dongia").val(),
+                Donvitinh: $("#Donvitinh").val(),
+                Maloai: $("#Maloai").val(),
+                Mansx: $("#Mansx").val(),
+                Hinh: hinhurl
+            },
+            success: function (result) {
+                console.log(result);
+                location.reload();
+                alert("Sửa thành công")
+            }
+        });
+
     });
 </script>

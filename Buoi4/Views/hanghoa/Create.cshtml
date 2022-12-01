@@ -93,37 +93,43 @@
         for (var i = 0; i != files.length; i++) {
             formData.append("files", files[i]); //loop through all files and append
         }
-
-        $.ajax(
-            {
-                url: "/Hanghoa/AjaxUpload",
-                data: formData, // send it as formData
-                processData: false,
-                contentType: false,
-                type: "POST", //type is post as we will need to post files
-                success: function (data) {
-                   console.log({data})
-                    $.ajax({
-                        url: '@Url.Action("CreateHH", "Hanghoa")',
-                        type: "post",
-                        contentType: 'application/x-www-form-urlencoded',
-                        data: {
-                            Mahang: $("#Mahang").val(),
-                            Tenhang: $("#Tenhang").val(),
-                            Dongia: $("#Dongia").val(),
-                            Donvitinh: $("#Donvitinh").val(),
-                            Maloai: $("#Maloai").val(),
-                            Mansx: $("#Mansx").val(),
-                            Hinh: data
-                        },
-                        success: function (result) {
-                            console.log(result);
-                            location.reload();
-                            alert("Thêm thành công")
-                        }
-                    });
+        let hinhurl = "";
+        if (files.length !== 0)
+            $.ajax(
+                {
+                    url: "/Hanghoa/AjaxUpload",
+                    data: formData, // send it as formData
+                    processData: false,
+                    contentType: false,
+                    type: "POST", //type is post as we will need to post files
+                    success: function (data) {
+                        hinhurl = data
+                        console.log({ data })
+                    },
+                    error: function (data) {
+                        console.log({ data })
+                    }
                 }
+            );
+        $.ajax({
+            url: '@Url.Action("CreateHH", "Hanghoa")',
+            type: "post",
+            contentType: 'application/x-www-form-urlencoded',
+            data: {
+                Mahang: $("#Mahang").val(),
+                Tenhang: $("#Tenhang").val(),
+                Dongia: $("#Dongia").val(),
+                Donvitinh: $("#Donvitinh").val(),
+                Maloai: $("#Maloai").val(),
+                Mansx: $("#Mansx").val(),
+                Hinh: hinhurl
+            },
+            success: function (result) {
+                console.log(result);
+                location.reload();
+                alert("Thêm thành công")
             }
-        );
+        });
+
     });
 </script>
